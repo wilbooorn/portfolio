@@ -1,10 +1,11 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
+import MainPage from './components/main_page';
 
 const App = () => (
   <div>
     <Switch>
-      <h1 className="marquee"><span>Hello Employers!</span></h1>
+      <Route path = "/" component={MainPage} />
     </Switch>
   </div>
 );
