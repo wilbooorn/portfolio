@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const MainPage = () => (
   <div className = "main-page">
@@ -11,10 +12,10 @@ const MainPage = () => (
       </div>
     </div>
     <div className="splash-navigation">
-      <h3>About</h3>
-      <h3>Portfolio</h3>
-      <h3>Contact</h3>
-      <h3>Resume</h3>
+      <Link to="/about">About</Link>
+      <Link to="/portfolio">Portfolio</Link>
+      <Link to="/contact">Contact</Link>
+      <a>Resume</a>
     </div>
 </div>
 );
