@@ -77,11 +77,6 @@
   height: auto;
 }
 
-.grad-pic > img {
-  margin-right: 40px;
-  width: 100%;
-}
-
 .about-me, .more-about-me {
   color: white;
   line-height: 140%;
@@ -95,16 +90,9 @@
   margin-top: 40px;
 }
 
-.about-content p {
-  padding: 0;
-}
 
 .about-me span {
   text-decoration: line-through;
-  -moz-text-decoration-color: red; /* Code for Firefox */
+  -moz-text-decoration-color: red;
   text-decoration-color: red;
-}
-
-.about-bottom-mid {
-
 }
