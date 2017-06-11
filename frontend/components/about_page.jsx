@@ -51,7 +51,7 @@ const AboutPage = () => (
              Let me explain. Through my degree, I learned a lot about
              the fundamentals of computer science, but
              I entered the job search with an unexciting portfolio. I
-             needed more. I decided to enroll in App Academy, becasue, well,
+             needed more. I decided to enroll in App Academy, because, well,
              what did I have to lose?
              Let me just say, it was a pretty great decision. I learned how to take
              all of the foundational aspects of software development I
