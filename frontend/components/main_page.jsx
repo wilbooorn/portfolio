@@ -7,33 +7,8 @@ import Resume from './resume';
 class MainPage extends React.Component {
   constructor(props){
     super(props);
-
-    this.state = { modalOpen: false };
-
-    this.resume = this.resume.bind(this);
-    this.openModal = this.openModal.bind(this);
-    this.closeModal = this.closeModal.bind(this);
   }
 
-  componentWillMount(){
-    Modal.setAppElement('body');
-    Modal.defaultStyles.content.border = "none";
-    Modal.defaultStyles.content.background = "transparent";
-    Modal.defaultStyles.overlay.backgroundColor = "rgba(255, 255, 255, 0.5)";
-  }
-
-  openModal(){
-    this.setState({ modalOpen: true });
-  }
-
-  closeModal(){
-    this.setState({ modalOpen: false });
-  }
-
-  resume(e){
-    e.preventDefault();
-    this.openModal();
-  }
 
   render(){
     return(
@@ -50,18 +25,9 @@ class MainPage extends React.Component {
           <Link to="/about">About</Link>
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/contact">Contact</Link>
-          <a onClick={this.resume}>Resume</a>
+          <a href="assets/RobinResume.pdf">Resume</a>
         </div>
 
-        <Modal
-          isOpen={this.state.modalOpen}
-          shouldCloseOnOverlayClick={true}
-          onRequestClose={this.closeModal}
-          contentLabel="Resume Modal"
-          className="resume-modal">
-
-          <Resume />
-        </Modal>
       </div>
     );
   }

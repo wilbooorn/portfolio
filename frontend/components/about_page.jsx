@@ -5,13 +5,6 @@ import {Link} from 'react-router-dom';
 class AboutPage extends React.Component {
   constructor(props){
     super(props);
-
-    this.resume = this.resume.bind(this);
-  }
-
-  resume(e){
-    e.preventDefault();
-    alert("hello");
   }
 
   render(){
@@ -27,7 +20,7 @@ class AboutPage extends React.Component {
             <Link to="/">Home</Link>
             <Link to="/portfolio">Portfolio</Link>
             <Link to="/contact">Contact</Link>
-            <a onClick={this.resume}>Resume</a>
+            <a href="assets/RobinResume.pdf">Resume</a>
           </div>
         </div>
 
