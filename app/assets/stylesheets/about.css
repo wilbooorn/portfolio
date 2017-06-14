@@ -90,9 +90,26 @@
   margin-top: 40px;
 }
 
-
 .about-me span {
   text-decoration: line-through;
   -moz-text-decoration-color: red;
   text-decoration-color: red;
+}
+
+.resume-modal {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: auto;
+  height: 90%;
+}
+
+
+.resume-modal {
+  outline: none;
 }
