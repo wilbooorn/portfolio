@@ -1,23 +1,39 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Modal from 'react-modal';
 
-const MainPage = () => (
-  <div className = "main-page">
-    <div className="main-content">
-      <h1>HI, I'M ROBIN</h1>
-      <h3>I'M A SOFTWARE DEVELOPER</h3>
-      <div className="splash-icons">
-        <a href="https://www.github.com/wilbooorn"><i className="fa fa-github fa-3x"></i></a>
-        <a href="https://www.linkedin.com/in/rwilborn/"><i className="fa fa-linkedin-square fa-3x"></i></a>
+
+class MainPage extends React.Component {
+  constructor(props){
+    super(props);
+
+    this.resume = this.resume.bind(this);
+  }
+
+  resume(e){
+    e.preventDefault();
+  }
+
+  render(){
+    return(
+      <div className = "main-page">
+        <div className="main-content">
+          <h1>HI, I'M ROBIN</h1>
+          <h3>I'M A SOFTWARE DEVELOPER</h3>
+          <div className="splash-icons">
+            <a href="https://www.github.com/wilbooorn"><i className="fa fa-github fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/rwilborn/"><i className="fa fa-linkedin-square fa-3x"></i></a>
+          </div>
+        </div>
+        <div className="splash-navigation">
+          <Link to="/about">About</Link>
+          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/contact">Contact</Link>
+          <a onClick={this.resume}>Resume</a>
+        </div>
       </div>
-    </div>
-    <div className="splash-navigation">
-      <Link to="/about">About</Link>
-      <Link to="/portfolio">Portfolio</Link>
-      <Link to="/contact">Contact</Link>
-      <a>Resume</a>
-    </div>
-</div>
-);
+    );
+  }
+}
 
 export default MainPage;
