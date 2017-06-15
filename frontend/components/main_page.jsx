@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Modal from 'react-modal';
-import Resume from './resume';
 
 
 class MainPage extends React.Component {

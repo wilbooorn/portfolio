@@ -2,15 +2,14 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import MainPage from './components/main_page';
 import AboutPage from './components/about_page';
-import Resume from './components/resume'
+import Portfolio from './components/portfolio';
 
 const App = () => (
   <div>
     <Switch>
       <Route exact path="/home" component={MainPage} />
       <Route exact path="/about" component={AboutPage} />
-      <Route exact path="/portfolio" component={MainPage} />
-      <Route exact path="/resume" component={Resume} />
+      <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path = "/" component={MainPage} />
     </Switch>
   </div>
