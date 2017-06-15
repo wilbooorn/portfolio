@@ -2,3 +2,18 @@
   background-color: #302c23;
   min-height: 100%;
 }
+
+.top-portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.portfolio-name {
+  color: white;
+  margin: 20px;
+}
+
+.portfolio-name > h1 {
+  font-size: 50px;
+}
