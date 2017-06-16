@@ -19,7 +19,7 @@ class AboutPage extends React.Component {
           <div className="about-navigation">
             <Link to="/">Home</Link>
             <Link to="/portfolio">Portfolio</Link>
-            <Link to="/contact">Contact</Link>
+            <Link to="/">Contact</Link>
             <a href="assets/RobinResume.pdf">Resume</a>
           </div>
         </div>
