@@ -16,6 +16,7 @@ const Contact = () => (
         <a href="assets/RobinResume.pdf">Resume</a>
       </div>
     </div>
+    <h1 className="soon">Coming Soon</h1>
   </div>
 );
 

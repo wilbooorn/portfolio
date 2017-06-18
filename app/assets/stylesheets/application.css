@@ -90,3 +90,16 @@ html, body, #root, #root > div {
 .splash-icons > a:hover {
   color: black;
 }
+
+.soon {
+  font-size: 80px;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  bottom: 30;
+}
