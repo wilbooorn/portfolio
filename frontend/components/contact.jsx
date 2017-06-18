@@ -2,21 +2,21 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 
-const Portfolio = () => (
+const Contact = () => (
   <div className="portfolio">
     <div className="top-portfolio">
       <div className="portfolio-name">
-        <h1>Portfolio</h1>
+        <h1>Contact</h1>
       </div>
 
       <div className="splash-navigation">
         <Link to="/home">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/portfolio">Portfolio</Link>
         <a href="assets/RobinResume.pdf">Resume</a>
       </div>
     </div>
   </div>
 );
 
-export default Portfolio;
+export default Contact;

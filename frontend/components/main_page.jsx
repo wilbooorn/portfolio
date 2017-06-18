@@ -23,7 +23,7 @@ class MainPage extends React.Component {
         <div className="splash-navigation">
           <Link to="/about">About</Link>
           <Link to="/portfolio">Portfolio</Link>
-          <Link to="/">Contact</Link>
+          <Link to="/contact">Contact</Link>
           <a href="assets/RobinResume.pdf">Resume</a>
         </div>
 
