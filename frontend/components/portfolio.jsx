@@ -46,6 +46,11 @@ const Portfolio = () => (
         </div>
       </div>
     </div>
+
+    <div className="projects">
+      <h1 className = "portfolio-title">Projects</h1>
+      <div className="projects-container"></div>
+    </div>
   </div>
 );
 
