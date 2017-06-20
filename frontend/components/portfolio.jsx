@@ -49,7 +49,19 @@ const Portfolio = () => (
 
     <div className="projects">
       <h1 className = "portfolio-title">Projects</h1>
-      <div className="projects-container"></div>
+      <div className="projects-container">
+        <div className="uncappt">
+          <h2>UNCAPP'T</h2>
+          <img src="assets/profile.png" />
+        </div>
+
+        <div className="chowtime">
+          <div className="chowtime-right">
+            <h2>Chowtime</h2>
+            <img src="assets/result.png" />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 );
