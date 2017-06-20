@@ -25,8 +25,12 @@
   align-items: center;
 }
 
-.skills h1, .skillz h2 {
+.skills h1 {
   color: white;
+  margin-bottom: 20px;
+}
+
+.skillz h2 {
   margin-bottom: 20px;
 }
 
@@ -35,6 +39,8 @@
   width: 90%;
   flex-direction: row;
   justify-content: center;
+  background-color: white;
+  border: 5px solid black;
 }
 
 
