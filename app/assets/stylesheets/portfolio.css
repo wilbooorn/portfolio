@@ -17,3 +17,38 @@
 .portfolio-name > h1 {
   font-size: 50px;
 }
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills h1, .skillz h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.skillz {
+  width: 15%;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-container img {
+  width: 100px;
+  height: 100px;
+}

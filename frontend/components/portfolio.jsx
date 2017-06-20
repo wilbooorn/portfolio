@@ -16,7 +16,40 @@ const Portfolio = () => (
         <a href="assets/RobinResume.pdf">Resume</a>
       </div>
     </div>
-    <h1 className="soon">Coming Soon</h1>
+
+    <div className="skills">
+      <h1 className = "skills-title">Skills</h1>
+      <div className="skills-container">
+        <div className="skillz">
+          <h2>Ruby</h2>
+          <img src="assets/icons/ruby.png" />
+        </div>
+        <div className="skillz">
+          <h2>Ruby on Rails</h2>
+          <img src="assets/icons/rails.png" />
+        </div>
+        <div className="skillz">
+          <h2>Javascript</h2>
+          <img src="assets/icons/javascript.png" />
+        </div>
+        <div className="skillz">
+          <h2>React.js</h2>
+          <img src="assets/icons/react.jpg" />
+        </div>
+        <div className="skillz">
+          <h2>Redux</h2>
+          <img src="assets/icons/redux.png" />
+        </div>
+        <div className="skillz">
+          <h2>React Native</h2>
+          <img src="assets/icons/react.jpg" />
+        </div>
+        <div className="skillz">
+          <h2>HTML5/CSS3</h2>
+          <img src="assets/icons/html.svg" />
+        </div>
+      </div>
+    </div>
   </div>
 );
 
