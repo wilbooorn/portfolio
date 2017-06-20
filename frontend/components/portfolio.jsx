@@ -30,11 +30,11 @@ const Portfolio = () => (
         </div>
         <div className="skillz">
           <h2>Javascript</h2>
-          <img src="assets/icons/javascript.png" />
+          <img src="assets/icons/js.png" />
         </div>
         <div className="skillz">
           <h2>React.js</h2>
-          <img src="assets/icons/react.jpg" />
+          <img src="assets/icons/react.png" />
         </div>
         <div className="skillz">
           <h2>Redux</h2>
@@ -42,11 +42,7 @@ const Portfolio = () => (
         </div>
         <div className="skillz">
           <h2>React Native</h2>
-          <img src="assets/icons/react.jpg" />
-        </div>
-        <div className="skillz">
-          <h2>HTML5/CSS3</h2>
-          <img src="assets/icons/html.svg" />
+          <img src="assets/icons/react.png" />
         </div>
       </div>
     </div>

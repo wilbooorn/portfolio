@@ -32,16 +32,16 @@
 
 .skills-container {
   display: flex;
-  width: 100%;
+  width: 90%;
   flex-direction: row;
   justify-content: center;
 }
 
 
 .skillz {
-  width: 15%;
+  width: 18%;
   height: 200px;
-  margin: 20px;
+  margin: 20px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
