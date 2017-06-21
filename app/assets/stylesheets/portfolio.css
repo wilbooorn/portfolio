@@ -39,20 +39,28 @@
   width: 90%;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   background-color: white;
   border: 5px solid black;
   margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 
 .skillz {
-  width: 18%;
+  width: 13%;
   height: 200px;
   margin: 20px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
+  padding-right: 10px;
+}
+
+.skillz > h2 {
+  margin: inherit auto;
 }
 
 .skills-container img {
