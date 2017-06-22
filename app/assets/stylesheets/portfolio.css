@@ -48,7 +48,7 @@
 
 
 .skillz {
-  width: 13%;
+  width: 160px;
   height: 200px;
   margin: 20px 15px;
   display: flex;
@@ -89,6 +89,8 @@
 .uncappt {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 550px;
 }
 
 .uncappt h2, .chowtime h2 {
@@ -115,6 +117,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  width: 50%;
+  min-width: 470px;
+  margin-left: 30px;
 }
 
 .uncappt-right-top {
@@ -145,6 +150,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .chowtime-right {
@@ -158,6 +164,9 @@
   flex-direction: column;
   justify-content: space-around;
   margin-left: 30px;
+  margin-right: 30px;
+  min-width: 400px;
+  width: 60%;
 }
 
 .chowtime-links > a {
