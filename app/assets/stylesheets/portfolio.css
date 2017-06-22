@@ -90,6 +90,10 @@
   min-width: 550px;
 }
 
+.chowtime {
+  flex-wrap: wrap-reverse;
+}
+
 .uncappt h2, .chowtime h2 {
   margin-bottom: 10px;
   font-weight: bold;
