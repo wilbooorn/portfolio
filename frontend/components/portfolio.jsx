@@ -44,6 +44,22 @@ const Portfolio = () => (
           <h2>React Native</h2>
           <img src="assets/icons/react.png" />
         </div>
+        <div className="skillz">
+          <h2>HTML5</h2>
+          <img src="assets/icons/html.jpg" />
+        </div>
+        <div className="skillz">
+          <h2>CSS3</h2>
+          <img src="assets/icons/css.png" />
+        </div>
+        <div className="skillz">
+          <h2>Git</h2>
+          <img src="assets/icons/git.png" />
+        </div>
+        <div className="skillz">
+          <h2>PostgreSQL</h2>
+          <img src="assets/icons/postgres.png" />
+        </div>
       </div>
     </div>
 
