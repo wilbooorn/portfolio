@@ -102,7 +102,7 @@ const Portfolio = () => (
           </div>
           <div className="chowtime-right">
             <h2>Chowtime</h2>
-            <img src="assets/result.png" />
+            <img src="assets/chowtime.png" />
           </div>
         </div>
       </div>
