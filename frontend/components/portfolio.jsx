@@ -12,7 +12,6 @@ const Portfolio = () => (
       <div className="splash-navigation">
         <Link to="/home">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
         <a href="assets/RobinResume.pdf">Resume</a>
       </div>
     </div>
