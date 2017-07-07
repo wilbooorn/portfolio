@@ -75,8 +75,8 @@ const Portfolio = () => (
               web application built with a Ruby
               on Rails back end and a React.js/Redux front end. It is based
               on the beer rating app <strong>Untappd</strong>. It allows
-              "checkin" new beers when they try them, and see what beers others
-              are drinking around the world.
+              users to "checkin" new beers when they try them, and see what
+              beers others are drinking around the world.
             </p>
             <p className="uncappt-links">
               You can check out the project live <a href="http://uncappt.com">here</a>
