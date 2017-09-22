@@ -12,6 +12,7 @@ const Portfolio = () => (
       <div className="splash-navigation">
         <Link to="/home">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/pong">Pong</Link>
         <a href="assets/RobinResume.pdf">Resume</a>
       </div>
     </div>

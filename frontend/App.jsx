@@ -4,6 +4,7 @@ import MainPage from './components/main_page';
 import AboutPage from './components/about_page';
 import Portfolio from './components/portfolio';
 import Contact from './components/contact';
+import PingPong from './components/ping_pong';
 
 const App = () => (
   <div>
@@ -12,6 +13,7 @@ const App = () => (
       <Route exact path="/about" component={AboutPage} />
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/contact" component={Contact} />
+      <Route exact path="/pong" component={PingPong} />
       <Route exact path = "/" component={MainPage} />
     </Switch>
   </div>

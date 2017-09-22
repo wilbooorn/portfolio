@@ -1,0 +1,49 @@
+.pong {
+  background-color: black;
+  background-color: #302c23;
+  min-height: 100%;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dslok1mwv/image/upload/v1506109876/giphy_btskni.gif');
+  background-size: cover;
+}
+
+.pong-title {
+  color: white;
+  margin: 20px;
+  font-size: 30px;
+}
+
+.top-pong {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.standings {
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  bottom: 20px;
+}
+
+.robin {
+  margin-right: 100px;
+}
+
+.robin, .dustin {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.cats {
+  width: 100%;
+  height: auto;
+}

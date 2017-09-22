@@ -26,6 +26,7 @@
   justify-content: flex-end;
   align-items: center;
   align-content: center;
+  z-index: 99;
 }
 
 .about-navigation > a {
@@ -38,7 +39,7 @@
   border: 3px solid transparent;
 }
 
-.about-navigation > a:nth-of-type(3){
+.about-navigation > a:nth-of-type(4), .border > a{
   border: 3px solid white;
   border-radius: 4px;
 }
