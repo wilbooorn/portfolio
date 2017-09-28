@@ -27,7 +27,7 @@ class PingPong extends React.Component {
 
             <div className="dustin">
               <h1>Dustin</h1>
-              <h2>5</h2>
+              <h2>8</h2>
             </div>
           </div>
         </div>
