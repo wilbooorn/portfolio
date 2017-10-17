@@ -22,12 +22,12 @@ class PingPong extends React.Component {
           <div className="standings">
             <div className="robin">
               <h1>Robin</h1>
-              <h2>11</h2>
+              <h2>17</h2>
             </div>
 
             <div className="dustin">
               <h1>Dustin</h1>
-              <h2>11</h2>
+              <h2>15</h2>
             </div>
           </div>
         </div>
